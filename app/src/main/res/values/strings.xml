@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">20-20-20 Smart Eye Break</string>
+    <string name="accessibility_service_label">20-20-20 Eye Break Assistant</string>
+    <string name="accessibility_service_description">Automatically monitors accumulated screen-on time to remind you to rest your eyes every 20 minutes (20-20-20 rule). Uses accessibility overlays solely to present the full-screen blue relaxation visual. Does NOT inspect screen content, keystrokes, messages, or private data.</string>
+
+    <string name="break_title">TIME FOR AN EYE BREAK</string>
+    <string name="break_instruction">Look at something 20 feet away for 20 seconds.</string>
+    <string name="break_subtext">Give your eyes a little rest.</string>
+    <string name="action_skip">Skip</string>
+    <string name="action_snooze">Snooze 5 min</string>
+</resources>
