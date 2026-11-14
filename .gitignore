@@ -17,6 +17,7 @@
 .cxx
 local.properties
 app/build
+app-release.apk
 node_modules/
 dist/
 coverage/
