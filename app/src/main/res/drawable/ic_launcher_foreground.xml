@@ -4,40 +4,151 @@
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
+
+    <!-- Legs -->
     <path
-        android:fillColor="#F1F5F9"
-        android:pathData="M21,54 C35,34 73,34 87,54 C73,72 35,72 21,54 Z" />
+        android:strokeColor="#F5D6B8"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round"
+        android:pathData="M 45,73 L 43,87 M 63,73 L 65,87" />
+
+    <!-- Boots -->
     <path
-        android:fillColor="#071A2F"
-        android:pathData="M54,39 A15,15 0 1,1 53.99,39 Z" />
+        android:fillColor="#8B4513"
+        android:strokeColor="#4A250A"
+        android:strokeWidth="0.8"
+        android:pathData="M 37,85 C 37,83 49,83 49,85 L 49,93 L 37,93 Z M 59,85 C 59,83 71,83 71,85 L 71,93 L 59,93 Z" />
+    <!-- Boot Soles -->
     <path
-        android:fillColor="#0284C7"
-        android:pathData="M54,40.2 A13.8,13.8 0 1,1 53.99,40.2 Z" />
+        android:fillColor="#3D1D05"
+        android:pathData="M 35,93 H 50 V 96 H 35 Z M 58,93 H 73 V 96 H 58 Z" />
+
+    <!-- Arms -->
     <path
-        android:strokeColor="#38BDF8"
-        android:strokeWidth="1"
-        android:strokeAlpha="0.5"
-        android:pathData="M54,45.5 A8.5,8.5 0 1,1 53.99,45.5 Z" />
+        android:strokeColor="#F5D6B8"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round"
+        android:pathData="M 32,52 L 23,65 M 76,52 L 85,65" />
+
+    <!-- Gloves -->
     <path
-        android:fillColor="#020617"
-        android:pathData="M54,48.5 A5.5,5.5 0 1,1 53.99,48.5 Z" />
+        android:fillColor="#262626"
+        android:strokeColor="#121212"
+        android:strokeWidth="0.6"
+        android:pathData="M 23,69 A 4.5,5.5 0 1,1 22.99,69 Z M 85,69 A 4.5,5.5 0 1,1 84.99,69 Z" />
+
+    <!-- Sclera Outer Stroke -->
+    <path
+        android:fillColor="#141414"
+        android:pathData="M 54,24 A 25,25 0 1,1 53.99,24 Z" />
+
+    <!-- Sclera White Ball -->
+    <path
+        android:fillColor="#FAFAFA"
+        android:pathData="M 54,25 A 24,24 0 1,1 53.99,25 Z" />
+
+    <!-- Outer Iris -->
+    <path
+        android:fillColor="#0066CC"
+        android:pathData="M 54,35.5 A 13.5,13.5 0 1,1 53.99,35.5 Z" />
+
+    <!-- Middle Iris (Cyan) -->
+    <path
+        android:fillColor="#00BFFF"
+        android:pathData="M 54,38.2 A 10.8,10.8 0 1,1 53.99,38.2 Z" />
+
+    <!-- Inner Iris (Amber Sunburst) -->
+    <path
+        android:fillColor="#FFA500"
+        android:pathData="M 54,41.5 A 7.5,7.5 0 1,1 53.99,41.5 Z" />
+
+    <!-- Pupil -->
+    <path
+        android:fillColor="#050505"
+        android:pathData="M 54,44.2 A 4.8,4.8 0 1,1 53.99,44.2 Z" />
+
+    <!-- Catchlight Highlight 1 -->
     <path
         android:fillColor="#FFFFFF"
         android:fillAlpha="0.95"
-        android:pathData="M49.5,48.5 A2.6,2.0 0 1,1 49.49,48.5 Z" />
+        android:pathData="M 50,44.2 A 2.2,2.2 0 1,1 49.99,44.2 Z" />
+
+    <!-- Catchlight Highlight 2 -->
     <path
         android:fillColor="#FFFFFF"
-        android:fillAlpha="0.7"
-        android:pathData="M58.8,57.5 A1.1,1.1 0 1,1 58.79,57.5 Z" />
+        android:fillAlpha="0.8"
+        android:pathData="M 58,54 A 1.0,1.0 0 1,1 57.99,54 Z" />
+
+    <!-- Crossbody Strap -->
     <path
-        android:strokeColor="#0F172A"
-        android:strokeWidth="2.4"
-        android:strokeLineCap="round"
-        android:pathData="M21,54 C35,34 73,34 87,54" />
+        android:strokeColor="#8B4513"
+        android:strokeWidth="3.2"
+        android:pathData="M 33,45 L 68,66" />
     <path
-        android:strokeColor="#94A3B8"
-        android:strokeWidth="1.0"
-        android:strokeAlpha="0.6"
-        android:strokeLineCap="round"
-        android:pathData="M22.5,54.3 C36,72 72,72 85.5,54.3" />
+        android:strokeColor="#5C2D0C"
+        android:strokeWidth="0.8"
+        android:pathData="M 33,45 L 68,66" />
+
+    <!-- Waist Belt -->
+    <path
+        android:strokeColor="#783A0F"
+        android:strokeWidth="4.2"
+        android:pathData="M 36,60 L 72,60" />
+
+    <!-- Silver Belt Buckle -->
+    <path
+        android:fillColor="#D1D5DB"
+        android:strokeColor="#4B5563"
+        android:strokeWidth="0.6"
+        android:pathData="M 50,57.5 H 58 V 62.5 H 50 Z" />
+    <path
+        android:fillColor="#783A0F"
+        android:pathData="M 52,58.8 H 56 V 61.2 H 52 Z" />
+
+    <!-- Pouch / Bag -->
+    <path
+        android:fillColor="#92400E"
+        android:strokeColor="#451A03"
+        android:strokeWidth="0.8"
+        android:pathData="M 65,58 C 65,56 77,56 77,58 L 77,70 C 77,72 65,72 65,70 Z" />
+    <!-- Pouch Flap -->
+    <path
+        android:fillColor="#783A0F"
+        android:pathData="M 65,58 L 77,58 L 75,65 L 67,65 Z" />
+    <!-- Snap Button -->
+    <path
+        android:fillColor="#E5E7EB"
+        android:pathData="M 71,67 A 1.2,1.2 0 1,1 70.99,67 Z" />
+
+    <!-- Bushy Eyebrows -->
+    <path
+        android:fillColor="#4A2C18"
+        android:strokeColor="#261408"
+        android:strokeWidth="0.6"
+        android:pathData="M 34,31 C 42,23 48,27 51,32 C 43,30 36,33 34,31 Z M 57,32 C 60,27 66,23 74,31 C 72,33 65,30 57,32 Z" />
+
+    <!-- Cowboy Hat Brim -->
+    <path
+        android:fillColor="#9E5828"
+        android:strokeColor="#3D1D05"
+        android:strokeWidth="0.8"
+        android:pathData="M 21,30 C 35,21 73,21 87,30 C 73,34 35,34 21,30 Z" />
+
+    <!-- Cowboy Hat Crown -->
+    <path
+        android:fillColor="#8C4C20"
+        android:strokeColor="#3D1D05"
+        android:strokeWidth="0.8"
+        android:pathData="M 36,30 L 40,14 C 47,10 61,10 68,14 L 72,30 Z" />
+
+    <!-- Crown Crease -->
+    <path
+        android:fillColor="#5C2F10"
+        android:pathData="M 43,14 C 49,12 59,12 65,14 C 59,17 49,17 43,14 Z" />
+
+    <!-- Dark Leather Hatband -->
+    <path
+        android:fillColor="#42200A"
+        android:pathData="M 36.5,30 L 37.5,25.5 L 70.5,25.5 L 71.5,30 Z" />
+
 </vector>
