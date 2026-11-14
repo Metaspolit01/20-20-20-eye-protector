@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Almond Sclera inside 66dp adaptive safe zone -->
+    <path
+        android:fillColor="#F1F5F9"
+        android:pathData="M21,54 C35,34 73,34 87,54 C73,72 35,72 21,54 Z" />
+    <!-- Outer Limbal Ring -->
+    <path
+        android:fillColor="#071A2F"
+        android:pathData="M54,39 A15,15 0 1,1 53.99,39 Z" />
+    <!-- Cerulean Iris -->
+    <path
+        android:fillColor="#0284C7"
+        android:pathData="M54,40.2 A13.8,13.8 0 1,1 53.99,40.2 Z" />
+    <!-- Collarette Ring -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="1"
+        android:strokeAlpha="0.5"
+        android:pathData="M54,45.5 A8.5,8.5 0 1,1 53.99,45.5 Z" />
+    <!-- Deep Pupil -->
+    <path
+        android:fillColor="#020617"
+        android:pathData="M54,48.5 A5.5,5.5 0 1,1 53.99,48.5 Z" />
+    <!-- Primary Corneal Catchlight -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.95"
+        android:pathData="M49.5,48.5 A2.6,2.0 0 1,1 49.49,48.5 Z" />
+    <!-- Secondary Glint -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.7"
+        android:pathData="M58.8,57.5 A1.1,1.1 0 1,1 58.79,57.5 Z" />
+    <!-- Upper Eyelash Margin -->
+    <path
+        android:strokeColor="#0F172A"
+        android:strokeWidth="2.4"
+        android:strokeLineCap="round"
+        android:pathData="M21,54 C35,34 73,34 87,54" />
+    <!-- Lower Eyelid Margin -->
+    <path
+        android:strokeColor="#94A3B8"
+        android:strokeWidth="1.0"
+        android:strokeAlpha="0.6"
+        android:strokeLineCap="round"
+        android:pathData="M22.5,54.3 C36,72 72,72 85.5,54.3" />
+</vector>
